@@ -8,6 +8,6 @@ features:
  - Jquery
  - Google Fonts
  - Google Analytics
- - Erb Templating 
- - Heroku with Puma
- 
+ - Erb Templating
+ - Github pages
+

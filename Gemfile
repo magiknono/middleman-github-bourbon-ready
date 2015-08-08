@@ -1,7 +1,7 @@
 # If you do not have OpenSSL installed, update
 # the following line to use "http://" instead
 source 'https://rubygems.org'
-ruby "2.1.2"
+ruby "2.2.2"
 gem "middleman", "~>3.3.12"
 
 # Live-reloading plugin
@@ -21,11 +21,8 @@ gem 'neat', "~> 1.7.2"
 #install slim for rapid templating
 #gem 'slim', "~> 3.0.3"
 
-#gem rack-contrib for heroku
-gem 'rack-contrib', "~> 1.2.0"
-
-#install puma server
-gem 'puma', "~> 2.11.2"
+#install on github pages
+gem 'middleman-deploy', '~> 1.0'
 
 #extension ga for middleman
 gem 'middleman-google-analytics', "~> 1.1.0"
